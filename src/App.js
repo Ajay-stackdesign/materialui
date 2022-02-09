@@ -101,6 +101,7 @@ function App() {
       <Avatar src={img} alt="beautiful lion" ></Avatar>
       <Avatar>A</Avatar>
       <h1>badge</h1>
+      <Button variant='outlined'>class</Button>
       <Badge badgeContent={4} color="error">
         <MailIcon color="action" />
       </Badge>
