@@ -102,6 +102,7 @@ function App() {
       <Avatar>A</Avatar>
       <h1>badge</h1>
       <Button variant='outlined'>class</Button>
+      <Button variant='outlined' disabled>promary</Button>
       <Badge badgeContent={4} color="error">
         <MailIcon color="action" />
       </Badge>
