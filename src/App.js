@@ -46,13 +46,14 @@ function App() {
       <h1>radio button</h1>
       <FormControl component="fieldset">
         <FormLabel component="legend">GENDER</FormLabel>
-        <RadioGroup 
-        aria-label="gender" defaultValue="female" name="radio-buttons-group">
-        <FormControlLabel value ="female" control={<Radio />} label="Female" />
-        <FormControlLabel value="male" control={<Radio />} label ="Male" />
-        <FormControlLabel value="other" control={<Radio />} label="Other" />
+        <RadioGroup
+          aria-label="gender" defaultValue="female" name="radio-buttons-group">
+          <FormControlLabel value="female" control={<Radio />} label="Female" />
+          <FormControlLabel value="male" control={<Radio />} label="Male" />
+          <FormControlLabel value="other" control={<Radio />} label="Other" />
         </RadioGroup>
       </FormControl>
+
       <Slider
         size="small"
         defaultValue={20}
@@ -60,12 +61,13 @@ function App() {
         valueLabelDisplay="auto"
         color="success"
       />
+
       <h1>switch</h1>
       <Switch />
       <h1>color</h1>
-      <Box  color="primary.main">success</Box>
-      <Box  color="secondary.main">secondary</Box>
-      <Box  color="error.main">success</Box>
+      <Box color="primary.main">success</Box>
+      <Box color="secondary.main">secondary</Box>
+      <Box color="error.main">success</Box>
       <Box color="warning.main">warning</Box>
       <Box color="info.main">info</Box>
       <Box color="success.main">succes</Box>
@@ -100,9 +102,9 @@ function App() {
       <Avatar>A</Avatar>
       <h1>badge</h1>
       <Badge badgeContent={4} color="error">
-      <MailIcon color="action" />
+        <MailIcon color="action" />
       </Badge>
-     </div>
+    </div>
   );
 }
 
