@@ -106,6 +106,13 @@ function App() {
       <Badge badgeContent={4} color="error">
         <MailIcon color="action" />
       </Badge>
+      <Slider
+        size="small"
+        defaultValue={20}
+        aria-label="large"
+        valueLabelDisplay="auto"
+        color="success"
+      />
     </div>
   );
 }
