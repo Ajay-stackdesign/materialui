@@ -53,7 +53,7 @@ function App() {
           <FormControlLabel value="other" control={<Radio />} label="Other" />
         </RadioGroup>
       </FormControl>
-
+      <Avatar>A</Avatar>
       <Slider
         size="small"
         defaultValue={20}
